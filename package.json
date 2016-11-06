@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "timestamp-microservice.js",
+  "engines": {
+    "node": "4.6.1"
+    "npm": "2.15.9"
+  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OferLevi85/timestamp-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OferLevi85/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/OferLevi85/timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
