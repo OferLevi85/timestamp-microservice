@@ -8,7 +8,8 @@
     "npm": "2.15.9"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "timestamp-microservice.js"
   },
   "repository": {
     "type": "git",
