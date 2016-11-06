@@ -26,7 +26,7 @@
         var jsonResponse = JSON.stringify({ unix: unixTime, natural: naturalTime });
         res.end(jsonResponse);
     })
-    app.listen("8080");
+    app.listen(process.env.PORT || 8080);
     
     function GetNaturalTimeString(date)
     {
